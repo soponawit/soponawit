@@ -1,0 +1,44 @@
+@charset "utf-8";
+body{
+	background-color:#151515;
+	display:flex;
+	justify-content:center;
+	margin-top:17%;
+}
+.menu{
+	position:relative;
+}
+.menu ul{
+	background-color:#fff;
+	display:flex;
+	padding:0;
+	transform:.5s;
+}
+.menu ul li{
+	padding:30px 40px;
+	list-style:none;
+	transform:.5s;
+	cursor:pointer;
+}
+.menu ui li a{
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#151515;
+	font-weight:bold;
+	font-size:30px;
+	transform:.5s;
+}
+.menu ul li:hover{
+	background-color:#151515;
+	transform:.5s;
+}
+.menu ul li:hover a{
+	color:fff;
+	transform:.5s;
+}
+.menu ul:hover{
+	box-shadow:-5px 5px 25px #f1f1f1;
+	transform:.5s;
+}/* CSS Document */
+
+
